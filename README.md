@@ -1,19 +1,22 @@
-# Forty - Jekyll Theme
-
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
-
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+<div style="text-align: center; margin-bottom: 3rem;" align="center">
+    <a href="https://github.com/EssenCiel/">
+        <img src="https://avatars.githubusercontent.com/u/128941531?s=200&v=4" alt="Logo" width="150" height="150">
+    </a>
+<h3 align="center">Nexyon Website</h3>
+  <p align="center">
+This repository contains the Nexyon website, make with Jekyll.
+  </p>
+</div>
+<br>
 
 # How to Use
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+You don't need to install Jekyll on your computer to use this project. 
+Docker is used to build the website, so you just need to install Docker on your computer and run the following command:
 
-Simply fork this repository and start editing the `_config.yml` file!
-
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
-
+```bash
+docker-compose up
+```
 # Added Features
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
@@ -62,5 +65,3 @@ Credits:
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
 ```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
