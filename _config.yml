@@ -39,6 +39,8 @@ sass:
 
 exclude:
 - "*.gemspec"
+- all_posts.md
+- ELEMENTS.md
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
