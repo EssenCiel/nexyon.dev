@@ -7,4 +7,20 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+
+	<script>
+		function redirectToStore() {
+			var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+			console.log(userAgent);
+			if (/iPad|iPhone|iPod|Macintosh|MacIntel/.test(userAgent) && !window.MSStream) {
+				// Redirection vers l'App Store
+				window.location.href = "https://apps.apple.com/us/app/essenciel/id6461419867";
+			} else if (/android/i.test(userAgent)) {
+				// Redirection vers le Google Play Store
+				window.location.href = "https://play.google.com/store/apps/details?id=dev.nexyon.essenciel";
+			} else {
+				alert("We are sorry, your device is not recognized. Please try again later.");
+			}
+		}
+	</script>
 </head>
