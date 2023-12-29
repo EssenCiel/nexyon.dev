@@ -6,6 +6,7 @@ image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
+
 <!-- Main -->
 <div id="main">
 
@@ -13,9 +14,10 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>We working on this page. Please come back later.</h2>
+			<h2>We working on it</h2>
 		</header>
-		</div>
+		<p>Please come back later.</p>
+    </div>
 </section>
 
 </div>

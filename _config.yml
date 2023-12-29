@@ -3,7 +3,7 @@ title: Nexyon
 subtitle:
 email: contact@nexyon.dev
 description: "Nexyon is a software development company that specializes in web development, mobile development, and cloud computing."
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl:
 url: "https://nexyon.dev" # the base hostname & protocol for your site, e.g. http://example.com
 author: Nexyon
 street_address: 9 Avenue Balcons du Front de Mer

@@ -7,4 +7,11 @@ nav-menu: true
 show_tile: true
 ---
 
-### We working on this page. Please come back later.
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>We working on it</h2>
+		</header>
+		<p>Please come back later.</p>
+    </div>
+</section>
