@@ -173,5 +173,4 @@ If you have any questions, please feel free to contact us using the following:
 <br>
 SIREN: 923518963
 
-###
 Effective Date: January 1, 2024
