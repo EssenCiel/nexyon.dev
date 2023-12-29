@@ -27,10 +27,12 @@ socials:
   Google-Plus:
   Instagram:
   LinkedIn:
-  Twitter: https://x.com/essencielapp
+  X-Twitter: https://x.com/essencielapp
   Facebook:
   Slack:
   Threads: https://threads.net/essencielapp
+
+statusPage: https://status.nexyon.dev/status/essenciel
 
 # build settings
 markdown: kramdown

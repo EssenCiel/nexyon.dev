@@ -29,36 +29,36 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
+<!--"			<section>-->
+<!--				<div class="contact-method">-->
+<!--					<span class="icon alt fa-phone"></span>-->
+<!--					<h3>Phone</h3>-->
+<!--					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>-->
+<!--				</div>-->
+<!--			</section>"-->
+<!--			<section>-->
+<!--				<div class="contact-method">-->
+<!--					<span class="icon alt fa-home"></span>-->
+<!--					<h3>Address</h3>-->
+<!--					<span>-->
+<!--					{% if site.street_address %}-->
+<!--					    {{ site.street_address }}<br />-->
+<!--					{% endif %}-->
+<!--					{% if site.city %}-->
+<!--					    {{ site.city }},-->
+<!--					{% endif %}-->
+<!--					{% if site.state %}-->
+<!--					    {{ site.state }} -->
+<!--					{% endif %}-->
+<!--					{% if site.zip_code %}-->
+<!--					    {{ site.zip_code }}<br />-->
+<!--					{% endif %}-->
+<!--					{% if site.country %}-->
+<!--					    {{ site.country }}-->
+<!--					{% endif %}-->
+<!--					</span>-->
+<!--				</div>-->
+<!--			</section>-->
 		</section>
 	</div>
 </section>
@@ -78,7 +78,10 @@
 				{% endfor %}
 			</ul>
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>&copy; {{ site.title }} {{ site.subtitle }} <script>document.write(new Date().getFullYear())</script></li>
+				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="{{ site.statusPage }}" target="_blank" rel="noopener noreferrer">Status Page</a></li>
+				<li><a href="" target="_blank" rel="noopener noreferrer">FAQ</a></li>
 			</ul>
 		</div>
 	</footer>
