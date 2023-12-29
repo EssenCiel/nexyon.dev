@@ -7,9 +7,8 @@ nav-menu: false
 show_tile: false
 ---
 
-[https://essenciel.app](https://essenciel.app/)
-Nexyon
-
+[EssenCiel](https://essenciel.app/) by [Nexyon](https://nexyon.dev/) is a mobile application that allows you to find cheapest gas stations nearby.
+<br>
 **Type of App:** Mobile Application
 
 ### Purpose of this Privacy Policy
@@ -147,8 +146,6 @@ Further information on these rights can be found in Chapter 3 (Articles 12-23) o
  Collected Data
 
 If you wish for your information to be deleted or modified in any way, please contact our privacy officer here:
-
-Thomas ROUX
 [contact@nexyon.dev](mailto:contact@nexyon.dev)
 
 ### Cookie Policy
@@ -171,7 +168,10 @@ This privacy policy may be modified from time to time to maintain compliance wit
 If you have any questions, please feel free to contact us using the following:
 
 [contact@nexyon.dev](mailto:contact@nexyon.dev)
+<br>
+9 Avenue du Balcon du Front de Mer, 66140 Canet-en-Roussillon, France
+<br>
 SIREN: 923518963
-ETAGE 4 9 AV BALCONS DU FRONT DE MER 66140 CANET-EN-ROUSSILLON
 
+###
 Effective Date: January 1, 2024
